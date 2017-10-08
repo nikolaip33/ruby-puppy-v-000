@@ -13,7 +13,7 @@ class Dog
   end
 
   def self.all
-    puts @@all.map { |dog| "#{dog.name}\n"}.join("")
+    puts @@all.map { |dog| "#{dog.name}\n"}.join
   end
 
 end
